@@ -1,0 +1,211 @@
+<html xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:ap="http://schemas.mindjet.com/MindManager/Application/2003" xmlns:cor="http://schemas.mindjet.com/MindManager/Core/2003">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-16">
+<title>Outline of java基础语法</title>
+<style type="text/css">#level1Indent { margin-left:  2em } </style>
+<style type="text/css">#level2Indent { margin-left:  4em } </style>
+<style type="text/css">#level3Indent { margin-left:  6em } </style>
+<style type="text/css">#level4Indent { margin-left:  8em } </style>
+<style type="text/css">#level5Indent { margin-left:  10em } </style>
+<style type="text/css">#levelXIndent { margin-left:  12em } </style>
+<style type="text/css">#level1Style { font-size: 11pt; font-weight: bold; margin-bottom: 0.5em; margin-left:  2em } </style>
+<style type="text/css">#level2Style { font-size:  9pt; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em } </style>
+<style type="text/css">#level3Style { font-size:  8pt; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em } </style>
+<style type="text/css">#level4Style { font-size:  8pt; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em } </style>
+<style type="text/css">#level5Style { font-size:  8pt; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em } </style>
+<style type="text/css">#levelXStyle { font-size:  8pt; font-weight: bold; margin-top: 1em; margin-bottom: 0.5em } </style>
+<style type="text/css">#notesStyle { font-size:  8pt; margin-bottom: 1em } </style>
+</head>
+<body>
+<div id="level1Indent">
+<div id="level1Style"> java基础语法</div>
+</div>
+<div id="level2Indent">
+<div id="level2Style">1 编写第一个Java程序</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">1.1 1.新建HelloWorld.java</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">
+<font face="Segoe UI" color="#112b21">
+<span>1.</span>
+</font>
+<font face="宋体" color="#112b21">
+<span>新建</span>
+</font>
+<font face="Segoe UI" color="#112b21">
+<span>HelloWorld.java（大小写一致）</span>
+</font>
+</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">
+<font face="Segoe UI" color="#112b21">
+<span>(1)尽可能使用英文命名</span>
+</font>
+</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">
+<font face="Segoe UI" color="#112b21">
+<span>(2)遵循驼峰标识</span>
+</font>
+</p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">1.2 2.进入命令提示符操作</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">dir 查看文件</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">cd 进入文件夹</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">cd. 表示当前目录</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">cd.. 返回上级目录</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml"> </p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">1.3 3.环境变量</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">添加bin目录到系统变量path</p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">1.4 4.变量存在的意义</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">变量可以提高代码的灵活性</p>
+</div>
+</div>
+<div id="level2Indent">
+<div id="level2Style">2 Java的语法</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">2.1 1.Java的变量</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">类型 名称 = 变量值;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(1)变量的类型</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">基本数据类型：4类8种</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">①整型：byte(1),short(2),int(4)默认类型,long(8)</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   定义long：long num = 12L;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">②浮点类型：float(4),double(8)默认类型</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   定义float：float f = 12.0f;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">③布尔类型：boolean true,flase</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">④字符类型：char</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   字符类型不是字符串，用单引号定义，而且只能有一个字符</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   char c = 'a';</p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">2.2 2.变量的类型转换</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(1)小类型的值会自动转换为大类型的值</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   int a = 10;double b = 12.5;a + b--&gt;double</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(2)要把一个大类型的值存储到小类型中，需要进行强制类型转换，如果不转换，会编译出错</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">强制类型转换方式：(int)12.5--&gt;把12.5这个double类型的转换为int型的</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(3)当char,byte和short进行运算时，会自动转换为int型</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   byte b1 = 12;byte b2 = 32;b1 + b2--&gt;自动转为int型</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(4)变量的作用域</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   花括号内有效，在同一个作用域中不能重复定义变量。</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">       注释类型：</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">          //单行注释</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">          /*这是一个</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">          多行注释</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">          */</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(5)定义变量的规定</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">①关键字用来定义变量</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">②对于类而言，定义名称的第一个字母用大写</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">对于函数或普通变量而言，第一个字母用小写，之后遵循驼峰标识</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(6)目前来看String比以上所有类型都要大</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   int a = 10;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   int b = 20;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   String str = "30";</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   a + str + b;--&gt;String类型--&gt;103020</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   a + b + str;--&gt;3030</p>
+</div>
+</div>
+<div id="level2Indent">
+<div id="level2Style">3 运算符</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">3.1 1.运算符</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(1)算术运算符：+,-,*,/,%</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(2)逻辑运算符：&gt;,&lt;,&gt;=,&lt;=,==,!=</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(3)自增和自减：i++ --&gt; i=i+1</p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">3.2 2.与或运算</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">与：1&amp;1=1--&gt;2&amp;3--&gt;010 &amp; 011=010--&gt;2</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">或：0|0=0</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">true&amp;&amp;true = true;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">&amp;&amp;表示短路与    &amp;表示与运算</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">||表示短路或    |表示或运算</p>
+</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">3.3 3.语句结构</div>
+</div>
+<div id="level4Indent">
+<div id="level4Style">3.3.1 (1)顺序结构</div>
+</div>
+<div id="level4Indent">
+<div id="level4Style">3.3.2 (2)选择结构</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">if(条件1) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   满足条件1，执行这段代码;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">} else if(条件2) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   满足条件2，执行这段代码;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">} else {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   以上条件都不满足，执行这段代码;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+</div>
+</div>
+<div id="level4Indent">
+<div id="level4Style">3.3.3 (3)分支结构</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">switch(整型或char型){</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   case:xxx;//case后面直接是值，不能是逻辑表达式</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   break;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   case:xxx;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   break;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   default:xxx;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   break;//每个case后需要加上break</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+</div>
+</div>
+<div id="level4Indent">
+<div id="level4Style">3.3.4 (4)循环结构</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">①while()循环</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">while(条件) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   条件满足一直执行这段代码，直到条件不满足;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">②for循环</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">for(初始化;循环条件;单次循环完成后执行的代码) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   循环体;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   continue;终止本次循环，跳回条件判断的地方</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   break;结束整个循环</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">③do...while循环</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">do{</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   初始化;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">} while (条件) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   循环体;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+</div>
+</div>
+<div id="level2Indent">
+<div id="level2Style">4 函数</div>
+</div>
+<div id="level3Indent">
+<div id="level3Style">4.1 1.认识函数</div>
+<div id="notesStyle">
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">(1)函数可以将一个过程进行封装，将来只要调用函数就可以了</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">返回值 函数名(函数参数) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   函数体;</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">public static double f(double x,double y) {</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   dobuble d = Math.sqrt(x*x + y*y);</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">   return d;//return用来返回函数的值，与返回值类型一致</p>
+<p xmlns:pri="http://schemas.mindjet.com/MindManager/Primitive/2003" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.w3.org/1999/xhtml">}</p>
+</div>
+</div>
+</body>
+</html>
